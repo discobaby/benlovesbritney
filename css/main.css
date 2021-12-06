@@ -1,0 +1,10 @@
+body {
+  background: pink;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
