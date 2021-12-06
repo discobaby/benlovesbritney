@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5XHJ265D2Z"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-5XHJ265D2Z');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="images/britney_flower.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Irish+Grover&family=Luckiest+Guy&family=Mochiy+Pop+One&family=Orbitron&display=swap" rel="stylesheet">
+    <title>Ben Loves Britney</title>
+</head>
+
+
+<body>
+
+
+  <div class="cursor"></div>
+  <!-- <a class = "skip" href='#skip'>Skip to Main Content</a> -->
+  <header>
+    <!-- <img src="images/ben_loves_britney_header.png" alt="" id = "logo"> -->
+    <img src="images/Ben loves Britney.png"id = "logo">
+
+    <!-- <script src = "./audio.js"></script> -->
+    <img src= "images/logo_underline.png" alt = "logo underline" id = "logo_underline">
+    
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+
+    <!-- <div id = "myNavBar" class = "navbar">
+      <a href="blog.html">Blog</a>
+      <a href="mix.html">My Mix</a>
+      <a href="inspo.html">Inspo</a>
+      <a id = "current" href = "index.html"> Home</a>
+    </div> -->
+
+    <nav>
+
+      <ul class = "nav_links">
+        <li class = "nav_item"><a href="blog.html">Blog</a></li>
+        <li class = "nav_item"><a href="mix.html">My mix</a></li>
+        <li class = "nav_item"><a href="inspo.html">Inspo</a></li>
+        <li class = "nav_item current"><a href = "index.html">Home</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <script src = "js/app.js"> </script>
+
+  <div class = "button">
+
+  <div class = "container">
+    <div class = "svg" id = "svg"></div>
+    <h2>BRITNEY SPEARS IS FINALLY A FREE WOMAN!!!!! CLCIK THE BUTTON BELOW TO CELEBRATE</h2>
+    <button>LET'S CELEBRATEEEE </button>
+  </div>
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js" integrity="sha512-V1YyTKZJrzJNhcKthpNAaohFXBnu5K9j7Qiz6gv1knFuf13TW/3vpgVVhJu9fvbdW8lb5J6czIhD4fWK2iHKXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+<script>
+const play = document.querySelector('button');
+const svgContainer = document.getElementById('svg');
+const animItem = bodymovin.loadAnimation({
+    wrapper: svgContainer,
+    animType: 'svg',
+    loop: false,
+    autoplay: false,
+    path: 'https://assets9.lottiefiles.com/packages/lf20_rovf9gzu.json'
+});
+
+play.addEventListener('click', () => {
+    animItem.goToAndPlay(0,true);
+})
+</script>
+
+
+  <main  id="main">
+
+    <h1 id = "britneylove">Ben Loves Britney: Welcome to my world ♡ </h1>
+
+      <div class="card blue">
+        <p>Hey! I'm Ben and for as long as I can remember, I've been obsessed with Britney Spears. 
+          For the past 5 years, I do not think a day has gone by where I haven't listened to at least one of her songs.
+          Some people think that might be exhausting, but that's how I get my energy.
+        </p>
+        
+        <div class ="imgz">
+          <img src="images/britney_pink_sweater.jpeg" alt="Britney in a pink sweater" id = "sweater">
+          <!-- <img src="images/sunnies.jpg" alt="Britney sunglasses" id = "sunnies2"> -->
+        </div>
+
+
+      </div>
+
+
+      <div class = "card yellow">
+        <p>
+          Aside from her music, which I love, there is just something about Britney that makes her stand out from the rest. Everybody who has met her
+          always has something nice to say about her. She is the literal human definition of a pop star- but she does not let her status influence
+          how she treats people. 
+        </p>
+        <img src="images/sunnies.jpg" alt="Britney sunglasses" id = "sunnies">
+
+      </div>
+      <div class = "card pink">
+        <p>
+          She is the human embodiment of good energy- in a world where we do not see much of this.
+          Some people came on to this Earth to spread joy, and that's literally Britney. She has made
+          such an impact on the world with her music and her kindness. She is an inspiration to all.
+        </p>
+        <img src="images/crop.jpg" alt="Britney in a tank top" id = "tank">
+
+      </div>
+
+        
+        <div class="parallax"></div>
+  
+        <div style="height:250px;background-color:pink;font-size:15px">
+          <form action = "https://formspree.io/f/xjvjqqjb" class = "form" method = "POST">
+            <fieldset>
+              <legend>Join the Britney Spears fan club !!</legend>
+              <label for = "name">Name </label>
+              <input type="text" id ="name" name = "Full Name" placeholder = "Enter Your Name">
+          
+          
+              <label for= "email">What's your Email</label>
+              <input type="email" id = "email" name = "E-mail">
+          
+          
+              <label for ="number">Leave us your diggiez! </label>
+              <input type="tel" id = "number" name = "Number">
+              <div><span>Format: 123-456-7890</span></div>
+          
+          
+              <label for= "message">Leave a message! </label>
+              <input type="text" id = "message" name = "Message">
+          
+              <textarea id = "message" name = "message"></textarea>
+          
+              <input type="checkbox" id = 'remember' name = "Remember me"> 
+              <label for= "remember">Remember me!!</label>
+          
+          
+              <input type="submit" value =  "SUBMIT :)">
+          
+            </fieldset>
+           </form>
+
+           <div class = "britney_links">
+
+            <a href = "https://www.freebritney.net/">
+              <img src = "images/free_brit.png" alt  = "free britney">
+            </a>
+      
+      
+            </div>
+        </div>
+
+
+
+    <footer>
+        <img src="images/ben_loves_britney_footer.png" alt = "ben loves  britney" id = "logo2">
+    </footer>
+    
+    <body>
+</html>
+
+    
