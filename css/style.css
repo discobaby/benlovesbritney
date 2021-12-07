@@ -757,6 +757,10 @@ ul {
         scroll-behavior: auto; /* Removes scroll animation */
     }
   
+     .container{
+       animation: None;
+    }
+    
     /*Turn off transition*/
     .skip a{
       -webkit-transition: initial; /* sets to default setting */
