@@ -756,7 +756,7 @@ ul {
     html{
         scroll-behavior: auto; /* Removes scroll animation */
     }
-  
+/*   
   }
     #sometimes_{
     transition: none;
@@ -820,7 +820,7 @@ ul {
 
      .container{
        animation: None;
-    }
+    } */
     
     /*Turn off transition*/
     .skip a{
