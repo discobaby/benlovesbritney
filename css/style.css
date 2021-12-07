@@ -757,6 +757,67 @@ ul {
         scroll-behavior: auto; /* Removes scroll animation */
     }
   
+  }
+    #sometimes_{
+    transition: none;
+    }
+
+    #sometimes_:hover{
+    box-shadow: none;
+     }
+    
+  
+.gallery img:hover{
+  transform: none;
+  z-index: 0;
+  border: 10px yellow solid;
+}
+
+.small_picture:hover{
+    transform: none;
+    z-index: 0;
+    border:solid 2px powderblue;
+}
+  
+    
+#sweater{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    transition: none;
+    transform-style: none;
+}
+
+#sweater:hover, #sweater:focus, #sweater:focus-within, #sweater:active{
+  transform: none;
+}
+
+#sunnies{
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  transition: none;
+  transform-style: none;
+}
+
+#sunnies:hover, #sunnies:focus, #sunnies:active{
+  transform: none;
+}
+
+#tank{
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  transition: none;
+  transform-style: none;
+}
+
+#tank:hover{
+  transform: none;
+}
+    
+
+
      .container{
        animation: None;
     }
